@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: (https://www.frontendmentor.io/solutions/product-preview-card-component-3_Cw8o8Yad)
-- Live Site URL: (ngiuliano-frontend-mentor-challenge01.netlify.app)
+- Solution URL: https://www.frontendmentor.io/solutions/product-preview-card-component-3_Cw8o8Yad
+- Live Site URL: ngiuliano-frontend-mentor-challenge01.netlify.app
 
 ## My process
 
@@ -45,7 +45,7 @@ Users should be able to:
 
 ### Useful resources
 
-- [MDN Wev Docs](https://developer.mozilla.org/en-US/) - I used this to gain a better understanding of Flexbox MDN provides comprehensive documentation and guides for HTML, CSS, and JS.
+- [MDN Web Docs](https://developer.mozilla.org/en-US/) - I used this to gain a better understanding of Flexbox MDN provides comprehensive documentation and guides for HTML, CSS, and JS.
 
 ## Author
 
