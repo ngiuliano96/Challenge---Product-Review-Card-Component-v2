@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/product-preview-card-component-3_Cw8o8Yad)
-- Live Site URL: [Add live site URL here](ngiuliano-frontend-mentor-challenge01.netlify.app)
+- Solution URL: (https://www.frontendmentor.io/solutions/product-preview-card-component-3_Cw8o8Yad)
+- Live Site URL: (ngiuliano-frontend-mentor-challenge01.netlify.app)
 
 ## My process
 
