@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/product-preview-card-component-3_Cw8o8Yad)
+- Live Site URL: [Add live site URL here](ngiuliano-frontend-mentor-challenge01.netlify.app)
 
 ## My process
 
@@ -49,10 +49,10 @@ Users should be able to:
 
 ## Author
 
-- Nicholas Giuliano's Portfoli is currently a work in progress!
+- Nicholas Giuliano's Portfolio is currently a work in progress!
 - Frontend Mentor - [@ngiuliano96](https://www.frontendmentor.io/profile/ngiuliano96)
 - LinkedIn - [Nicholas Giuliano](https://www.linkedin.com/in/ngiuliano96/)
 
 ## Acknowledgments
 
-Huge thanks to YouTuber Kevin Powell (https://www.youtube.com/@KevinPowell) for providing much needed videos that helped me through this project. Kevin is an expert front-end developer, providing useful, FREE guides on YouTube.
+Huge thanks to YouTuber [Kevin Powell](https://www.youtube.com/@KevinPowell) for providing much needed videos that helped me through this project. Kevin is an expert front-end developer, providing useful, FREE guides on YouTube.
