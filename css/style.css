@@ -1,0 +1,208 @@
+/* josh comeau's css reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+h1,
+h2,
+h3 {
+  line-height: 1;
+}
+
+/* general styling */
+body {
+  background-color: hsl(30, 38%, 92%);
+  color: hsl(228, 12%, 48%);
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.875rem;
+  font-weight: 500;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+/* utilities */
+.flex-group {
+  display: flex;
+  flex: 1;
+  gap: 1rem;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.visually-hidden:not(:focus):not(:active) {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+/* button */
+.button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+  text-decoration: none;
+
+  border: 0;
+  border-radius: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  background-color: hsl(158, 36%, 37%);
+  color: hsl(0, 0%, 100%);
+  font-size: 0.925rem;
+  font-weight: 700;
+}
+
+.button[data-icon="shopping-cart"]::before {
+  content: "";
+  background-image: url("../images/icon-cart.svg");
+  width: 15px;
+  height: 16px;
+}
+
+.button:is(:hover, :focus) {
+  background-color: hsl(158, 36%, 20%);
+}
+
+/* product styling */
+.product-container {
+  display: grid;
+  max-width: 600px;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.product-content {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+
+  gap: 1rem;
+  padding: 1.5rem;
+}
+
+.product-category {
+  font-size: 0.8125rem;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+
+.product-title {
+  font-family: "Fraunces", serif;
+  font-size: 2rem;
+  font-weight: 700;
+  color: hsl(212, 21%, 14%);
+}
+
+.product-price {
+  font-family: "Fraunces", serif;
+  font-size: 2rem;
+  font-weight: 700;
+  color: hsl(158, 36%, 37%);
+}
+
+/* attribution styling */
+.attribution {
+  font-size: 0.6875rem;
+  text-align: center;
+  margin-top: 30px;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.attribution .full-name {
+  display: inline;
+}
+
+.attribution .abbr-name {
+  display: none;
+}
+
+/* media queries */
+@media (min-width: 600px) {
+  .product-container {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .product-content {
+    padding: 2rem;
+  }
+}
+
+@media (max-width: 950px) and (max-height: 450px) {
+  body {
+    height: auto;
+    padding: 0.5rem;
+  }
+
+  .attribution {
+    margin-top: 5px !important;
+  }
+}
+
+@media (max-width: 375px) {
+  .attribution {
+    font-size: 0.5625rem;
+    margin-top: 5px;
+  }
+
+  .attribution .full-name {
+    display: none;
+  }
+
+  .attribution .abbr-name {
+    display: inline;
+  }
+}
